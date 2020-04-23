@@ -1,6 +1,8 @@
 function driver(input_directory, output_directory)
 
-    
+%   input_directory = 'F:\Google Drive\Physionetchallenger_2020\Training_WFDB';
+%   output_directory = 'C:\Users\Jonathan\Desktop\Nueva carpeta2';
+
 	% Find files.
     input_files = {};
     for f = dir(input_directory)'

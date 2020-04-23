@@ -12,6 +12,7 @@ function [score, label] = run_12ECG_classifier(data,header_data,classes, model)
     [~,idx] = max (score);
 
     label(idx)=1;
+    score = label;
 end
 
 
